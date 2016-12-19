@@ -4,7 +4,7 @@ Learning Sparse Gaussian Graphical Models with Overlapping Blocks‎, Mohammad J
 
 You should have R and the R package quic installed on your machine. The file main.py shows an example and will get you started. It uses MILE data (AML
 cancer dataset) as input. We have selected 500 genes, consisting of 488 highest varying genes in MILE and 12 genes highly associated with AML:
-FLT3, NPM1, CEBPA, KIT, N-RAS, MLL, WT1, IDH1/2, TET2, DNMT3A, and ASXL1.
+FLT3, NPM1, CEBPA, KIT, N-RAS, MLL, WT1, IDH1/2, TET2, DNMT3A, and ASXL1. Please see data/genes.mat.
 
 The usage is as follows:
 
