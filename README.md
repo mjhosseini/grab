@@ -30,7 +30,7 @@ dual_tol: Threshold for the convergence of the dual problem
 
 Outputs:
 
-Theta: learned inverse covariance matrix
+Theta: Learned inverse covariance matrix
 
 blocks: Learned overlapping blocks
 
