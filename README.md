@@ -2,7 +2,9 @@ This is the implementation for the following paper:
 
 Learning Sparse Gaussian Graphical Models with Overlapping Blocks‎, Mohammad Javad Hosseini and Su-In Lee. Neural Information Processing Systems (NIPS), 2016.
 
-You should have R and the R package quic installed on your machine. You can use the main.py file to get started.
+You should have R and the R package quic installed on your machine. The file main.py shows an example and will get you started. It uses MILE data (AML
+cancer dataset) as input. We have selected 500 genes, consisting of 488 highest varying genes in MILE and 12 genes highly associated with AML:
+FLT3, NPM1, CEBPA, KIT, N-RAS, MLL, WT1, IDH1/2, TET2, DNMT3A, and ASXL1.
 
 The usage is as follows:
 
@@ -25,7 +27,6 @@ tol: Threshold for convergence of the main BCD
 max_iter_tol: The maximum number of iterations for the dual problem
 
 dual_tol: Threshold for the convergence of the dual problem
-
 
 Outputs:
 
