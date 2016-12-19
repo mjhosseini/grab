@@ -10,7 +10,7 @@ The usage is as follows:
 
 Inputs:
 
-S: p by p covariance matrix (The data itself should be normalized)
+S: p by p covariance matrix (p is the number of variables; The data itself should be normalized)
 
 lmbda: The regularization parameter
 
