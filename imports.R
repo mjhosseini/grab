@@ -1,7 +1,0 @@
-require(stringr)
-require(Matrix)
-require("glasso")
-require(gdata)
-require(QUIC)
-require(psych)
-require(MGL)
