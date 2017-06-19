@@ -2,9 +2,9 @@ This is the implementation for the following paper:
 
 [Learning Sparse Gaussian Graphical Models with Overlapping Blocks](http://papers.nips.cc/paper/6097-learning-sparse-gaussian-graphical-models-with-overlapping-blocks.pdf)‎, Mohammad Javad Hosseini and Su-In Lee. Neural Information Processing Systems (NIPS), 2016.
 
-###Running
+### Running
 
-####Software
+#### Software
 
 You should have R and the R package quic installed on your machine. The file main.py shows an example and will get you started. It uses MILE data (AML
 cancer dataset) as input. We have selected 500 genes, consisting of 488 highest varying genes in MILE and 12 genes highly associated with AML:
@@ -14,7 +14,7 @@ The usage is as follows:
 
 (Theta, blocks) = grab.BCD(S,lmbda,K,o_size,max_iter,tol,dual_max_iter,dual_tol)
 
-####Inputs
+#### Inputs
 
 S: p by p covariance matrix (p is the number of variables; The data itself should be normalized)
 
@@ -32,7 +32,7 @@ max_iter_tol: The maximum number of iterations for the dual problem
 
 dual_tol: Threshold for the convergence of the dual problem
 
-####Outputs
+#### Outputs
 
 Theta: Learned inverse covariance matrix
 
